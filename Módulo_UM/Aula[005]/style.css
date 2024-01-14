@@ -1,0 +1,156 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  img{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+
+  div{
+    background-color: red;
+  }
+
+  span{
+    background-color: blue;
+  }
+
+  #primeira{
+    background-color: chartreuse;
+  }
+
+  .qualquer{
+    background-color: chocolate;
+  }
+
+  /* Página INDEX */
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    height: 100vh;
+  }
+
+  #imagem-main{
+    width: initial;
+    margin: auto;
+    display: block;
+  }
+  
+  #header-main{
+    width: 60%;
+    height: 60px;
+    background-color: rgba(0,0,0,0.5);
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    border: 1px solid yellow;
+  }
+
+  #header-main h1{
+    font-family: 'Bungee Spice', sans-serif;
+    color: aliceblue;
+  }
+
+
+  .link-padrao{
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+
+  .link-main{
+    text-decoration: none;
+    margin: 5px 5px;
+    font-family: 'Bungee Spice', sans-serif;
+    font-family: 'EB Garamond', serif;
+  }
+
+  .link-main:visited{
+    color: darkgreen;
+  }
+
+  .link-main:link{
+    color: darkblue;
+  }
+
+  .link-main:hover{
+    color: aqua;
+    text-decoration: underline;
+  }
+
+  #body-main{
+    background-color: darkcyan;
+  }
+
+  #main-main p{
+    text-align: center;
+    border: 1px solid yellow;
+    display: flex;
+    padding: 10px;
+    overflow-y: hidden;
+    /* TODO --> Finalizar a variacao de tela do SITE */
+
+    min-width: none;
+    padding: 40px;
+  }
+
+  #p-breve{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    width: 105vh;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    margin-bottom: 5px;
+  }
+
+
+  #footer-main{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid yellow;
+    margin-top: 10px;
+  }
+
+  #p-direitos{
+    margin-top: 5px;
+    color: red;
+  }
+
+
+  /* Página contato */
+  .voltar{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 5px 5px 5px;
+  }
+
+  

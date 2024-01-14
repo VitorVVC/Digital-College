@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* HEADER */
+header{
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid tomato;
+}
+
+header h1{
+    margin: 5px 0 0 5px;
+}
+/* MAIN */ 
+main{
+    display: flex; /* */
+    justify-content: center; /* */
+    height: 572px;
+    background-color: beige;
+    border: 1px solid tomato;
+}
+
+main .main-div{
+    margin-top: 50px;
+}
+
+.main-div input{
+    width: 100px;
+    height: 15px;
+}
+/* FOOTER */
+footer{
+    height: 100px;
+    background-color: brown;
+    border: 1px solid tomato;
+    text-align: center;
+}
+
+footer p{
+    margin: 40px 0 0 0 ;
+}
