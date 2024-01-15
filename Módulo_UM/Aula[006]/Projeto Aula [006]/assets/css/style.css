@@ -34,8 +34,18 @@ a {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     padding: 10px 20px;
-    margin: 0 0px;
-    transition: all 2.5s;
+    margin: 0 0 0 14px;
+}
+
+a:hover{
+    background: black;
+    color: white;
+}
+
+header h1{
+    font-family: 'Bungee Spice', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lemon', serif;
 }
 
 /* MAIN */ 
@@ -61,7 +71,7 @@ input{
 
 input:focus{
     outline: none;
-    border-color: blue;
+    border-color: burlywood;
 }
 
 .login button{
@@ -77,6 +87,11 @@ button{
     font-size: 20px;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+::selection{
+    color:white;
+    background: black;
 }
 
 button:hover {
