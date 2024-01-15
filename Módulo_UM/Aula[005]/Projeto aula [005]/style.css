@@ -1,69 +1,64 @@
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 50%;
-    margin: auto;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
+  span a{
+    text-decoration: none;
+    color: #fff;
   }
 
-  img{
-    width: 30%;
-    margin: auto;
-    margin-bottom: 15px;
-    display: block;
-  }
-
-
-  div{
-    background-color: red;
-  }
-
-  span{
-    background-color: blue;
-  }
-
-  #primeira{
-    background-color: chartreuse;
-  }
-
-  .qualquer{
-    background-color: chocolate;
+  span a:hover{
+    text-decoration: underline;
+    color: red;
   }
 
   /* Página INDEX */
-
-  *{
-    margin: 0;
-    padding: 0;
-  }
-
   body{
-    height: 100vh;
+    min-height: 100vh;
   }
-
+  #body-main{
+    background-color: darkcyan;
+  }
+  /* HEADER  */
   #imagem-main{
     width: initial;
     margin: auto;
     display: block;
   }
+  /* MAIN */
+  img{
+    width: 40%;
+  }
   
+  .imagem-direita{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+  }
+  
+  .imagem-direita p{
+    padding: 10px;
+    color: aliceblue;
+  }
+
+  .imagem-esquerda{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+    padding: 15px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+  }
+
+  .imagem-esquerda p{
+    padding: 10px;
+    color: aliceblue;
+  }
   #header-main{
-    width: 60%;
-    height: 60px;
     background-color: rgba(0,0,0,0.5);
-    margin: auto;
-    margin-bottom: 5px;
     text-align: center;
-    border: 1px solid yellow;
+    border: 3px solid yellow;
+    margin-bottom: 10px;
+    padding: 5px;
   }
 
   #header-main h1{
@@ -71,6 +66,9 @@ table {
     color: aliceblue;
   }
 
+  #header-main a{
+    padding: 10px 5px;
+  }
 
   .link-padrao{
     display: block;
@@ -86,11 +84,11 @@ table {
   }
 
   .link-main:visited{
-    color: darkgreen;
+    color: rgb(133, 255, 133);
   }
 
   .link-main:link{
-    color: darkblue;
+    color: rgb(133, 255, 133);
   }
 
   .link-main:hover{
@@ -98,45 +96,63 @@ table {
     text-decoration: underline;
   }
 
-  #body-main{
-    background-color: darkcyan;
+  /* MAIN  */
+  #main-main{
+    background-color: rgba(0,0,0,0.8);
+    border: 3px solid yellow;
+    padding: 10px;
+    text-align: center;
   }
 
-  #main-main p{
-    text-align: center;
-    border: 1px solid yellow;
-    display: flex;
-    padding: 10px;
+  #main-main .conteudo p{
     overflow-y: hidden;
     /* TODO --> Finalizar a variacao de tela do SITE */
-
     min-width: none;
-    padding: 40px;
+    border: 3px solid red;
+    padding: 30px;
   }
 
-  #p-breve{
+  .p-breve{
     font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
-    width: 105vh;
     margin: auto;
     background: rgba(0,0,0,0.5);
     color: #fff;
     margin-bottom: 5px;
   }
 
-
+  /*  FOOTER  */
   #footer-main{
     text-align: center;
-    width: 60%;
     margin: auto;
     background-color: rgba(0,0,0,0.5);
-    border: 1px solid yellow;
+    border: 3px solid yellow;
     margin-top: 10px;
+    padding: 5px;
   }
 
-  #p-direitos{
-    margin-top: 5px;
+  .p-direitos{
     color: red;
+  }
+
+  /* Página BIO */
+
+  #body-bio{
+    background-color: #660066;
+  }
+
+  #main-bio{
+    background-color: rgba(0,0,0,0.5);
+    border: 3px solid yellow;
+    padding: 10px;
+    text-align: center;
+  }
+  #main-bio .conteudo p{
+    overflow-y: hidden;
+    /* TODO --> Finalizar a variacao de tela do SITE */
+    min-width: none;
+    border: 3px solid red;
+    padding: 30px;
   }
 
 
@@ -152,5 +168,3 @@ table {
     font-size: 16px;
     margin: 5px 5px 5px 5px;
   }
-
-  
