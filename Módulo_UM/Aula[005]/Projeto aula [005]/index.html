@@ -18,33 +18,50 @@
         <h1>Vitor Vargas</h1>
         <nav>
             <a href="index.html" class="link-main">Principal</a>
-            <a href="Bio.html" class="link-main">Biografia</a>
+            <a href="#main-bio" class="link-main">Biografia</a>
             <a href="Projetos.html" class="link-main">Projetos</a>
             <a href="Contato.html" class="link-main">Contatos</a>
         </nav>
     </header>
 
     <main id="main-main">
-        <div class="conteudo">
-            <p class="p-breve">
-            Desenvolvedor Full Stack com breve experiência em HTML, CSS e Javascript & Java.
-            </p>
-        </div>
-
         <div class="imagem-direita">
             <img src="Imagens/conceito-de-web-design-com-desenhos.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat veniam aperiam qui perferendis delectus fuga reiciendis, itaque beatae voluptatem corrupti!</p>
+            <div class="conteudo">
+                <h1 class="h1-padrao">Sobre Mim</h1>
+                <p class="p-breve">Me chamo Vitor Vargas. Tenho hoje 18 anos e almejo uma carreira de sucesso no desenvolvimento WEB. Comecei meus estudos com 15 anos, estudando o básico de Python, ao decorrer do ensino médio destrinchei um conteudo breve sobre Java e ao chegar na faculdade tive oportunidade de aprimorar mais este conhecimento<br><br> Hoje estudo o mercado WEB e admiro o desenvolvimento BACK-END, onde almejo me especializar. Utilizando tecnologias como: Javascript, PHP, Java e muitas outras.<br><br>Caso queira saber mais sobre mim</p>
+                <button class="button-padrao"><a href="#main-bio">Biografia</a></button>
+            </div>
         </div>
 
         <div class="imagem-esquerda">
             <img src="Imagens/pessoas-que-trabalham-codigos-html.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi illum odio necessitatibus tempore a sint consectetur dolore incidunt eum maxime.</p>
+            <div class="conteudo">
+                <h1 class="h1-padrao">Projetos</h1>
+                <!-- TODO: Trocar os strongs por a e linkas os repositorios -->
+                <p>Possuo alguns projetos menores em repositorios de estudos, como o <a class="a-text" href=""></a>Digital College</strong>,<strong> Cursos-HTML-1</strong>,<strong> Cursos-JavaScript-1</strong> e muitos outros.<br><br>Porém também possuo projetos mais elaborados, os quais reservo repositorios unicos, caso tenha curiosidade clique no botão abaixo</p>
+                <button class="button-padrao"> <a href="Projetos.html" target="_blank">Projetos</a></button>
+            </div>
         </div>
     </main>
 
+    <section id="main-bio">
+        <h1>Biografia</h1>
+        <div class="conteudo">
+            <p class="p-breve">
+                Me chamo Vitor Vargas Cardoso, tenho 18 anos e atualmente estou no terceiro semestre da faculdade de Ciências da Computação na <span><a href="https://www.unifor.br" target="_blank">Unifor</a></span>. 
+                <br><br> Desde cedo, desenvolvi uma paixão irresistível por tecnologia e inovação, e essa paixão me guiou até aqui.
+                <br> Meus dias são dedicados a desbravar os desafios da programação, buscando constantemente aprimorar minhas habilidades. Estou determinado a me tornar um desenvolvedor web de sucesso e, para isso, mergulho de cabeça nos estudos, absorvendo cada aspecto do vasto universo da computação.
+                <br><br> A Unifor tem sido o palco onde construo a base sólida para minha carreira. Cada semestre é uma oportunidade de aprender e aplicar conhecimentos em projetos desafiadores. Meu objetivo é claro: contribuir para a inovação no mundo da tecnologia, criando soluções eficientes e impactantes.
+                <br><br>Fora das linhas de código, mantenho-me atualizado com as tendências tecnológicas, explorando novas linguagens de programação e ferramentas inovadoras. Acredito que a chave para o sucesso é a aprendizagem contínua e a adaptação às mudanças rápidas no campo da computação.
+                <br> Sou movido pelo desejo de enfrentar desafios, resolver problemas e fazer parte de projetos que deixarão uma marca duradoura. Minha jornada está apenas começando, mas estou ansioso para os desafios que o futuro reserva. 
+                <br><br>Com determinação, paixão e um olhar atento para o aprendizado constante, estou construindo meu caminho para o sucesso como desenvolvedor web.</p>
+        </div>
+    </section>
+
     <footer id="footer-main">
         <p class="p-direitos">Todos os direitos reservados &copy - Vitor Vargas</p>
-        <a class="link-padrao" href="outra-pagina.html" target="_blank">Oque vimos antes do projeto atual</a>
+        <!-- <a class="link-padrao" href="outra-pagina.html" target="_blank">Oque vimos antes do projeto atual</a> -->
     </footer>
     
 </body>

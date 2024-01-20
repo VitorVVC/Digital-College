@@ -1,170 +1,206 @@
-  span a{
-    text-decoration: none;
-    color: #fff;
-  }
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
-  span a:hover{
-    text-decoration: underline;
-    color: red;
-  }
+html{
+  scroll-behavior: smooth;
+}
 
-  /* Página INDEX */
-  body{
-    min-height: 100vh;
-  }
-  #body-main{
-    background-color: darkcyan;
-  }
-  /* HEADER  */
-  #imagem-main{
-    width: initial;
-    margin: auto;
-    display: block;
-  }
-  /* MAIN */
-  img{
-    width: 40%;
-  }
-  
-  .imagem-direita{
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    padding: 15px;
-    margin-bottom: 15px;
-    margin-left: 50px;
-  }
-  
-  .imagem-direita p{
-    padding: 10px;
-    color: aliceblue;
-  }
+span a{
+  text-decoration: none;
+  color: #fff;
+}
 
-  .imagem-esquerda{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: start;
-    padding: 15px;
-    margin-right: 50px;
-    margin-bottom: 15px;
-  }
+span a:hover{
+  text-decoration: underline;
+  color: red;
+}
 
-  .imagem-esquerda p{
-    padding: 10px;
-    color: aliceblue;
-  }
-  #header-main{
-    background-color: rgba(0,0,0,0.5);
-    text-align: center;
-    border: 3px solid yellow;
-    margin-bottom: 10px;
-    padding: 5px;
-  }
+strong{
+  color: #ffffff7e;
+}
 
-  #header-main h1{
-    font-family: 'Bungee Spice', sans-serif;
-    color: aliceblue;
-  }
+button{
+background-color: rgb(133, 255, 133);
+  border: 3px solid black;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
 
-  #header-main a{
-    padding: 10px 5px;
-  }
+button a{
+  text-decoration: none;
+}
 
-  .link-padrao{
-    display: block;
-    color: #fff;
-    margin-bottom: 5px;
-  }
+.button-padrao:hover{
+  background-color: #bbb;
+  transition: all 5ms ease-in-out;
+}
 
-  .link-main{
-    text-decoration: none;
-    margin: 5px 5px;
-    font-family: 'Bungee Spice', sans-serif;
-    font-family: 'EB Garamond', serif;
-  }
+.button-padrao{
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 5px 5px 5px;
+}
 
-  .link-main:visited{
-    color: rgb(133, 255, 133);
-  }
+::selection{
+  color:white;
+  background: black;
+}
 
-  .link-main:link{
-    color: rgb(133, 255, 133);
-  }
+body{
+  min-height: 50%;
+  min-width: 50%;
+  height: 100%;
+  width: 100%;
+}
+#body-main{
+  background-color: darkcyan;
+}
+/* HEADER  */
+#imagem-main{
+  width: initial;
+  margin: auto;
+  display: block;
+}
+/* MAIN */
+img{
+  width: 35em;
+}
 
-  .link-main:hover{
-    color: aqua;
-    text-decoration: underline;
-  }
+#header-main{
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+  border: 3px solid yellow;
+  padding: 5px;
+}
 
-  /* MAIN  */
-  #main-main{
-    background-color: rgba(0,0,0,0.8);
-    border: 3px solid yellow;
-    padding: 10px;
-    text-align: center;
-  }
+#header-main h1{
+  font-family: 'Bungee Spice', sans-serif;
+  color: aliceblue;
+}
 
-  #main-main .conteudo p{
-    overflow-y: hidden;
-    /* TODO --> Finalizar a variacao de tela do SITE */
-    min-width: none;
-    border: 3px solid red;
-    padding: 30px;
-  }
+#header-main a{
+  padding: 10px 5px;
+}
 
-  .p-breve{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
-    margin: auto;
-    background: rgba(0,0,0,0.5);
-    color: #fff;
-    margin-bottom: 5px;
-  }
+.link-padrao{
+  display: block;
+  color: #fff;
+  margin-bottom: 5px;
+}
 
-  /*  FOOTER  */
-  #footer-main{
-    text-align: center;
-    margin: auto;
-    background-color: rgba(0,0,0,0.5);
-    border: 3px solid yellow;
-    margin-top: 10px;
-    padding: 5px;
-  }
+.link-main{
+  text-decoration: none;
+  margin: 5px 5px;
+  font-family: 'Bungee Spice', sans-serif;
+  font-family: 'EB Garamond', serif;
+}
 
-  .p-direitos{
-    color: red;
-  }
+.link-main:visited{
+  color: rgb(133, 255, 133);
+}
 
-  /* Página BIO */
+.link-main:link{
+  color: rgb(133, 255, 133);
+}
 
-  #body-bio{
-    background-color: #660066;
-  }
+.link-main:hover{
+  color: aqua;
+  text-decoration: underline;
+}
 
-  #main-bio{
-    background-color: rgba(0,0,0,0.5);
-    border: 3px solid yellow;
-    padding: 10px;
-    text-align: center;
-  }
-  #main-bio .conteudo p{
-    overflow-y: hidden;
-    /* TODO --> Finalizar a variacao de tela do SITE */
-    min-width: none;
-    border: 3px solid red;
-    padding: 30px;
-  }
+/* MAIN  */
+#main-main{
+  background-color: rgba(0,0,0,0.8);
+  border: 3px solid yellow;
+  padding: 1em;
+}
 
 
-  /* Página contato */
-  .voltar{
-    background-color: #04AA6D; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 5px 5px 5px 5px;
-  }
+.imagem-direita{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  padding: 1em;
+  margin-left: 3em;
+  margin-bottom: 1.5em;
+}
+
+.imagem-direita p{
+  padding: 2em;
+  color: aliceblue;
+}
+
+.imagem-esquerda{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: start;
+  padding: 1em;
+  margin-right: 3em;
+  margin-bottom: 1.5em;
+}
+
+.imagem-esquerda p{
+  padding: 2rem;
+  color: aliceblue;
+}
+
+.h1-padrao{
+  font-family: 'Bungee Spice', sans-serif;
+  color: #fff;
+  font-size: 34px;
+  margin-bottom: 5px;
+}
+
+.p-breve{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.conteudo{
+  text-align: center;
+  padding: 1em;
+}
+
+/*  FOOTER  */
+#footer-main{
+  text-align: center;
+  margin: auto;
+  background-color: rgba(0,0,0,0.5);
+  border: 3px solid yellow;
+  padding: 5px;
+}
+
+.p-direitos{
+  color: red;
+}
+
+
+#main-bio{
+  background-color: rgba(0,0,0,0.5);
+  border: 3px solid yellow;
+  padding: 10px;
+  text-align: center;
+}
+#main-bio .conteudo p{
+  overflow-y: hidden;
+  /* TODO --> Finalizar a variacao de tela do SITE */
+  min-width: none;
+  border: 3px solid red;
+  padding: 30px;
+}
+
