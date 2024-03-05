@@ -4,9 +4,9 @@
 
 - Iniciamento de JS (Oque é um algoritmo?);
 - Recomendações: 
-  - *Hacker Rank!!*.
-  - *Leetcode*. 
-  - *Beecrowd*.
+  - [*Hacker Rank!!*](https://www.hackerrank.com/dashboard).
+  - [*Leetcode*](https://leetcode.com/accounts/social/signup/). 
+  - [*Beecrowd*](https://judge.beecrowd.com/en).
 
 ## Códigos vistos por via P5JS:
 
