@@ -98,7 +98,7 @@ function draw() {
   x += 1;
   if(x == 400){
     x = 200;
-  }
+  }   
   // Itera sob o segundo quadrado e quando o mesmo bater na "parede" de   baixo, retorna pro mesmo valor
   b += 1;
   if(b == 400){

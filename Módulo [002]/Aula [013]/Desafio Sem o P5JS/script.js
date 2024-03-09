@@ -16,9 +16,7 @@ function geraQuadrado() {
         do {
             posicaoX = (Math.random() * 7.5) * 50; 
             posicaoY = (Math.random() * 8.5) * 50;
-        } while (posicaoJaExiste(Math.floor(posicaoX),Math.floor(posicaoY),posicoes));
-        
-
+        } while (!posicaoJaExiste(Math.floor(posicaoX),Math.floor(posicaoY),posicoes));
 
         posicoes.push(`${posicaoX},${posicaoY}`);
         quadrado.style.left = posicaoX + "px";
@@ -31,6 +29,10 @@ function geraQuadrado() {
     function posicaoJaExiste(x, y, posicoes) {
         for (let i = 0; i < posicoes.length; i++) {
             const [px, py] = posicoes[i].split(',');
+            // TODO --> Tentar corrigir o método para considerar -50 do tamanho original, já como "igual";
+            const tamanhoPxX = parseInt(px) - 50;
+            const tamanhoPxY = parseInt(py) - 50;
+            
             if (parseInt(px) === x && parseInt(py) === y) {
                 return true;
             }

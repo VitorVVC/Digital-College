@@ -16,3 +16,12 @@
     height: 50px;
     margin: 5px;
   }
+
+  .form-entrada{
+    display: flex;
+    flex-direction: column nowrap;
+    height: 200px;
+    width: 50%;
+    background-color: aqua;
+    margin: 0 auto;
+  }
