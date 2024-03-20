@@ -32,7 +32,12 @@ function geraQuadrado() {
             // TODO --> Tentar corrigir o método para considerar -50 do tamanho original, já como "igual";
             const tamanhoPxX = parseInt(px) - 50;
             const tamanhoPxY = parseInt(py) - 50;
-            
+        
+            // TODO --> Testar && Caso não funcionar, testar utilizar m20 para todos os quadrados, e contabilizar no calculo.
+            if(tamanhoPxX <= x && tamanhoPxX >= x + 50 && tamanhoPxY <= y && tamanhoPxY >= x + 50){
+                return true;
+            }
+                
             if (parseInt(px) === x && parseInt(py) === y) {
                 return true;
             }
